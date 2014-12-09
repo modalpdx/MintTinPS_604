@@ -5,9 +5,9 @@ Penguin Mints, Mintz. The board is sized/shaped to fit in the tin while
 still allowing enough room for up to three AA batteries in an open holder
 and a mini-toggle to switch the power supply on/off.
 
-[NOTE: In spite of the lower number in the project name, this power supply
-design actually provides more current than the MintTimPS_882 design. I
-recommend you go with this board instead.]
+[*NOTE: In spite of the lower number in the project name, this power supply
+design actually provides more current than the MintTinPS_882 design. I
+recommend you go with this board instead.*]
 
 This version of the mint tin power supply uses a [**Maxim MAX604 linear voltage regulator**](http://www.maximintegrated.com/en/products/power/linear-regulators/MAX604.html "MAX604 Info"), which gives us the following output voltage options:
 
