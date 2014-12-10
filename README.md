@@ -19,6 +19,7 @@ jumper is open, you get 3.3V.
 
 ##Parts
 * "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
+* .125" spacers (I'm guessing adhesive, nylon) if spacers are your thing
 * Maxim MAX604 voltage regulator (8 pin DIP)
 * 8 pin DIP socket (optional, but smart)
 * 0.1uF capacitor (ceramic, C2 on the board)
