@@ -111,3 +111,6 @@ The first run of PCBs from OSHPark has been received but not tested
 yet. If you decide to make boards from these files in the meantime,
 well...you're on your own.
 
+##VERSIONS
+
+0.1 - Initial version.
