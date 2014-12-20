@@ -18,8 +18,6 @@ The adjustable voltage is activated by setting a jumper (ADJV). If the
 jumper is open, you get 3.3V.
 
 ##Parts
-* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
-* .125" spacers (I'm guessing adhesive, nylon) if spacers are your thing
 * Maxim MAX604 voltage regulator (8 pin DIP)
 * 8 pin DIP socket (optional, but smart)
 * 0.1uF capacitor (ceramic, C2 on the board)
@@ -32,7 +30,8 @@ Optional for power connection:
 * Two 1 x 2 female headers (2.54mm/0.1") for power wires
 
 Other:
-* Spacers to elevate the board off of the tin, and/or
+* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
+* .125" spacers (I'm guessing adhesive, nylon) if spacers are your thing
 * Something else to fully insulate the bottom of the board
 
 ##Setting the adjustable voltage
@@ -102,7 +101,13 @@ MAX603 should be a drop-in replacement for the MAX604. This chip would
 give you everything the MAX604 offers but the non-adjustable voltage would
 be 5V. The adjustable voltage is handled identically to the MAX604.
 
-The first run of PCBs from OSHPark has been submitted but not received
+The .brd file was run through OSHPark's design rules. It has not been run
+through DirtyPCB's design rules. If you're building boards through
+DirtyPCBs and want to upload the .brd file by itself, you should probably
+run it through Eagle and DirtyPCB's design rules first. Or just submit the
+gerbers instead. Your call.
+
+The first run of PCBs from OSHPark has been received but not tested
 yet. If you decide to make boards from these files in the meantime,
 well...you're on your own.
 
